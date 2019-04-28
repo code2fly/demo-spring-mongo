@@ -2,7 +2,7 @@
 
 ### Steps to run application - 
 * clone project "git clone https://github.com/johnsnowtarg92/demo-spring-mongo.git"
-* run "mvn clean package && docker-compose build && docker-compose up"
+* run "mvn clean package -DskipTests && docker-compose build && docker-compose up"
 
 
 ## Points to note in docker-compose.yml
@@ -22,3 +22,5 @@ services:
       - "8091:8080"  // default tomcat port 8080(container port) to 8091 host port mapping. rest service will now be exposed on 8091
 
 ```
+
+
