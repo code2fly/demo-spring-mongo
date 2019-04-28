@@ -1,7 +1,7 @@
 ## Spring & Mongodb sample on docker
 
 ### Steps to run application - 
-* clone project "git clone "
+* clone project "git clone https://github.com/johnsnowtarg92/demo-spring-mongo.git"
 * run "mvn clean package && docker-compose build && docker-compose up"
 
 
